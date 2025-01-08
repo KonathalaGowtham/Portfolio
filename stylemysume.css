@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+}
+nav{
+    margin:0px;
+    padding:0px;
+}
+nav >.ul{
+    padding:20px;
+    margin:0px;
+    display:flex;
+    justify-content:center;
+    background:linear-gradient(to right,rgb(166, 123, 123),rgb(201, 133, 60) );
+    color:#3109bf;
+    font-family:"poppins",sans-serif;
+}
+li{
+    padding:0px;
+    margin:10px;
+    border-radius: 10%;
+    /* color:beige; */
+    /* color:#3109bf; */
+    font-family:"poppins",sans-serif;
+    
+   }
+   .ul :hover{
+     text-decoration: underline;
+     cursor:pointer; 
+  
+   }
+   
+   
+img{
+    height: 140px;
+    width:140px;
+    border-radius:100px;
+     display:flex;  
+  
+    border:1px solid rgb(215, 142, 142);
+    filter:brightness(0.9);
+    padding:0px; 
+    
+   
+}
+
+/* .photo{
+    float: right;
+     animation: gow 3s linear 0.1s 1 alternate-reverse; 
+      position:relative;
+    top:-20px;
+    z-index:1;
+     
+    
+    
+    
+}
+  @keyframes gow{
+    from{
+        filter:blur(10px);
+        transform:rotateY(360deg);
+      
+        right:0%;
+        
+    }
+    to{
+        right:90%;
+               
+    }
+}   */
+   .photo{
+    float: right;
+    cursor:text;
+    position: relative;
+    top:15px;
+   }
+.g{
+   text-align: end;
+    position:relative;
+    right:30px;
+    top:18px;
+    color:rgba(51, 53, 62, 0.943);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    height:100%;
+    width:100%;
+    /* overflow: hidden; */
+    background:linear-gradient(to right,rgb(255,255,255),rgb(254, 215, 173) );
+    /* color:rgb(215, 204, 204); */
+}
+.b{
+    margin:5px;
+    padding:5px;
+}
+
+.l{
+    position: relative;
+    top:10px;
+    /* margin:px;
+    padding:px; */
+    
+}
+.l>h2{
+    margin:5px;
+}
+.arr{
+    margin:10px;
+}
+article{
+    margin:10px;
+}
+.contact{
+    margin:10px;
+}
+.icon{
+    display: flex;
+    padding:10px;
+    margin:5px;
+    
+
+}
+a{
+    text-decoration: none;
+    color:rgb(51, 53, 62);
+}
+footer{
+    background:linear-gradient(to right,rgb(166, 123, 123),rgb(201, 133, 60) );
+}
